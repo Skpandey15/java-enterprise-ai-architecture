@@ -52,6 +52,12 @@ templates/
 reference-implementations/
 ```
 
+## Featured architecture guides
+
+- [Java Modular Monolith vs Microservices](docs/02-java-enterprise/modular-monolith-vs-microservices.md) — selection criteria, module boundaries, extraction signals, migration path, and anti-patterns
+- [Kafka Production Architecture](docs/04-event-driven-architecture/kafka-production-architecture.md) — KRaft, durability, partitioning, delivery semantics, retries, schema governance, security, observability, and disaster recovery
+- [AI-Assisted Interview Platform](docs/09-case-studies/ai-assisted-interview-platform.md) — end-to-end Java, Python, React, security, AI, data, deployment, and operational design
+
 ## First reference architecture
 
 The first end-to-end case study is an **AI-assisted online interview platform**, demonstrating:
@@ -93,8 +99,8 @@ Every substantial case study should cover:
 
 - [x] Establish repository structure and architecture principles
 - [x] Add the first AI-assisted interview platform case study
-- [ ] Add Java modular monolith versus microservices guidance
-- [ ] Add Kafka production architecture
+- [x] Add Java modular monolith versus microservices guidance
+- [x] Add Kafka production architecture
 - [ ] Add Keycloak/OIDC/JWT/JWKS security architecture
 - [ ] Add Saga and transactional outbox examples
 - [ ] Add Kubernetes ingress and GitOps deployment architecture
