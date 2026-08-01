@@ -43,6 +43,7 @@ docs/
 ├── 04-event-driven-architecture/
 ├── 05-security/
 ├── 06-cloud-native/
+│   └── ci-cd-pipeline/
 ├── 07-observability-and-resilience/
 ├── 08-enterprise-ai/
 ├── 09-case-studies/
@@ -58,6 +59,7 @@ reference-implementations/
 - [Kafka Production Architecture](docs/04-event-driven-architecture/kafka-production-architecture.md) — KRaft, durability, partitioning, delivery semantics, retries, schema governance, security, observability, and disaster recovery
 - [Saga and Transactional Outbox](docs/03-data-and-transactions/saga-and-transactional-outbox.md) — local transaction boundaries, reliable event publication, idempotent consumers, choreography, orchestration, compensation, and failure recovery
 - [Keycloak, OAuth 2.0, OIDC, JWT and JWKS Security Architecture](docs/05-security/keycloak-oauth2-oidc-jwt-jwks-security-architecture.md) — trust boundaries, login flows, token roles, issuer and audience validation, JWKS rotation, browser/BFF security, service identity, and failure testing
+- [Complete CI/CD Pipeline: Docker, Kubernetes, Argo CD and Ingress](docs/06-cloud-native/ci-cd-pipeline/complete-ci-cd-pipeline.md) — CI/CD concepts, Docker and GHCR, Kustomize promotion, Argo CD GitOps, Kubernetes rollout, Ingress URLs, security, rollback, troubleshooting, production checklist, and interview questions
 - [AI-Assisted Interview Platform](docs/09-case-studies/ai-assisted-interview-platform.md) — end-to-end Java, Python, React, security, AI, data, deployment, and operational design
 
 ## First reference architecture
@@ -105,7 +107,7 @@ Every substantial case study should cover:
 - [x] Add Kafka production architecture
 - [x] Add Keycloak/OIDC/JWT/JWKS security architecture
 - [x] Add Saga and transactional outbox examples
-- [ ] Add Kubernetes ingress and GitOps deployment architecture
+- [x] Add complete Docker, Kubernetes, Argo CD, Ingress and GitOps CI/CD architecture
 - [ ] Add observability reference architecture
 - [ ] Add enterprise RAG architecture
 - [ ] Add agentic AI and MCP security architecture
