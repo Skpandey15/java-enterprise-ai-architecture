@@ -16,6 +16,7 @@ This repository is maintained by **Sunil Pandey** as an original architecture po
 
 ## Featured learning guides
 
+- [Python Backend: Zero to Job-Ready (0–3 Years)](docs/02-backend-java-python/python/zero-to-job-ready/README.md) — ten progressive chapters covering Core Python, FastAPI, SQLAlchemy, async I/O, pytest, security, observability, deployment and interview preparation
 - [Core Java: Zero to Architect](docs/02-backend-java-python/core-java/) — twelve senior-level chapters covering language design, collections, JVM/GC, concurrency and virtual threads, I/O, functional Java, reflection/modules, Java 8–25 evolution, testing, security, production debugging, design patterns and interview scenarios
 - [Enterprise Architecture Principles](docs/02-backend-java-python/core-java/fundamentals/architecture-principles.md)
 - [Java Modular Monolith vs Microservices](docs/02-backend-java-python/core-java/modular-monolith-vs-microservices.md)
@@ -41,6 +42,7 @@ This repository is maintained by **Sunil Pandey** as an original architecture po
 
 - [x] Establish five-part handbook structure
 - [x] Add Core Java Zero-to-Architect curriculum for senior engineers
+- [x] Add Python Zero-to-Job-Ready curriculum for 0–3 years
 - [x] Add Java, Kafka, security, database and CI/CD architecture guides
 - [ ] Add observability reference architecture
 - [ ] Add enterprise RAG architecture
