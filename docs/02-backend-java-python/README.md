@@ -1,22 +1,20 @@
 # Part 2 — Backend
 
-Backend is divided into two technology tracks.
+Backend is divided into two primary technology tracks.
 
 ```text
 02-backend-java-python/
 ├── core-java/
-│   ├── zero-to-architect/
 │   ├── fundamentals/
 │   ├── event-driven/
 │   └── security/
 └── python/
+    └── zero-to-job-ready/
 ```
 
 ## 1. Core Java
 
-Start with [Core Java: Zero to Architect](core-java/README.md), a twelve-chapter curriculum calibrated for senior engineers and architects. It covers the language and object model, collections/generics, JVM/GC, concurrency and virtual threads, I/O, functional Java, reflection/modules, Java 8–25 evolution, testing, security, performance diagnosis, patterns and senior interview scenarios.
-
-Architecture extensions:
+Study Java enterprise architecture, Spring Boot, modular monoliths, microservices, Kafka, security, resilience, and service evolution.
 
 - [Enterprise Architecture Principles](core-java/fundamentals/architecture-principles.md)
 - [Java Modular Monolith vs Microservices](core-java/modular-monolith-vs-microservices.md)
@@ -26,4 +24,4 @@ Architecture extensions:
 
 ## 2. Python
 
-- [Python Backend learning path](python/README.md) — Core Python, FastAPI, API design, async processing, testing, security, packaging, and production deployment.
+- [Python Backend: Zero to Job-Ready (0–3 Years)](python/zero-to-job-ready/README.md) — progressive notes covering Core Python, FastAPI, databases, async processing, testing, security, observability, deployment and interviews.
