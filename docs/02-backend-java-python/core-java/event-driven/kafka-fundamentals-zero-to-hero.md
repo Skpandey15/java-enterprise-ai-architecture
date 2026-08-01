@@ -196,7 +196,7 @@ public class AttemptEventPublisher {
 }
 ```
 
-Do not blindly update a database and then publish to Kafka as two independent operations. A crash between them creates inconsistency. Use the [transactional outbox](../../04-database/saga-and-transactional-outbox.md) when both effects must correspond.
+Do not blindly update a database and then publish to Kafka as two independent operations. A crash between them creates inconsistency. Use the [transactional outbox](../../../04-database/saga-and-transactional-outbox.md) when both effects must correspond.
 
 ---
 
@@ -566,5 +566,5 @@ A useful practice sequence:
 Continue with:
 
 1. [Kafka Production Architecture](kafka-production-architecture.md)
-2. [Saga and Transactional Outbox](../../04-database/saga-and-transactional-outbox.md)
+2. [Saga and Transactional Outbox](../../../04-database/saga-and-transactional-outbox.md)
 3. Apply both patterns in [Java_AI_MCP](https://github.com/Skpandey15/Java_AI_MCP).

@@ -1,25 +1,26 @@
-# Part 2 — Backend (Java and Python)
+# Part 2 — Backend
 
-This part develops backend architecture from core principles through Java/Spring Boot, Python/FastAPI, event-driven systems, distributed security, resilience, and service evolution.
+Backend is divided into two primary technology tracks.
 
-## Fundamentals
+```text
+02-backend-java-python/
+├── core-java/
+│   ├── fundamentals/
+│   ├── event-driven/
+│   └── security/
+└── python/
+```
 
-- [Enterprise Architecture Principles](fundamentals/architecture-principles.md)
+## 1. Core Java
 
-## Java
+Study Java enterprise architecture, Spring Boot, modular monoliths, microservices, Kafka, security, resilience, and service evolution.
 
-- [Java Modular Monolith vs Microservices](java/modular-monolith-vs-microservices.md)
+- [Enterprise Architecture Principles](core-java/fundamentals/architecture-principles.md)
+- [Java Modular Monolith vs Microservices](core-java/modular-monolith-vs-microservices.md)
+- [Kafka Fundamentals: Zero to Hero](core-java/event-driven/kafka-fundamentals-zero-to-hero.md)
+- [Kafka Production Architecture](core-java/event-driven/kafka-production-architecture.md)
+- [Keycloak, OAuth 2.0, OIDC, JWT and JWKS](core-java/security/keycloak-oauth2-oidc-jwt-jwks-security-architecture.md)
 
-## Python
+## 2. Python
 
-Python/FastAPI architecture, testing, concurrency, packaging, and production deployment chapters are planned.
-
-## Event-driven architecture
-
-- [Kafka Fundamentals: Zero to Hero](event-driven/kafka-fundamentals-zero-to-hero.md)
-- [Kafka Production Architecture](event-driven/kafka-production-architecture.md)
-
-## Security
-
-- [Keycloak, OAuth 2.0, OIDC, JWT and JWKS](security/keycloak-oauth2-oidc-jwt-jwks-security-architecture.md)
-
+- [Python Backend learning path](python/README.md) — Core Python, FastAPI, API design, async processing, testing, security, packaging, and production deployment.
