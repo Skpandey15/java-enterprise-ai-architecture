@@ -57,6 +57,7 @@ reference-implementations/
 
 - [Enterprise Architecture Principles](docs/01-fundamentals/architecture-principles.md) — business-first guardrails, domain and data ownership, resilience, security, delivery, cost, AI governance, evidence checks, and interview guidance
 - [Java Modular Monolith vs Microservices](docs/02-java-enterprise/modular-monolith-vs-microservices.md) — selection criteria, module boundaries, extraction signals, migration path, and anti-patterns
+- [Kafka Fundamentals: Zero to Hero](docs/04-event-driven-architecture/kafka-fundamentals-zero-to-hero.md) — concepts from first principles, cluster anatomy, producers, consumer groups, offsets, Spring Boot examples, reliability, retries, security, monitoring, troubleshooting, labs, and interview answers
 - [Kafka Production Architecture](docs/04-event-driven-architecture/kafka-production-architecture.md) — KRaft, durability, partitioning, delivery semantics, retries, schema governance, security, observability, and disaster recovery
 - [Saga and Transactional Outbox](docs/03-data-and-transactions/saga-and-transactional-outbox.md) — local transaction boundaries, reliable event publication, idempotent consumers, choreography, orchestration, compensation, and failure recovery
 - [Keycloak, OAuth 2.0, OIDC, JWT and JWKS Security Architecture](docs/05-security/keycloak-oauth2-oidc-jwt-jwks-security-architecture.md) — trust boundaries, login flows, token roles, issuer and audience validation, JWKS rotation, browser/BFF security, service identity, and failure testing
@@ -108,6 +109,7 @@ Every substantial case study should cover:
 - [x] Add the first AI-assisted interview platform case study
 - [x] Add Java modular monolith versus microservices guidance
 - [x] Add Kafka production architecture
+- [x] Add Kafka fundamentals from zero to hero
 - [x] Add Keycloak/OIDC/JWT/JWKS security architecture
 - [x] Add Saga and transactional outbox examples
 - [x] Add complete Docker, Kubernetes, Argo CD, Ingress and GitOps CI/CD architecture
