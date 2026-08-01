@@ -10,6 +10,8 @@ The target outcome is:
 
 This is both an interview guide and a practical blueprint for the [Java_AI_MCP](https://github.com/Skpandey15/Java_AI_MCP) application.
 
+For focused foundational revision, see [Docker and Kubernetes Fundamentals for CI/CD Engineers](docker-kubernetes-fundamentals.md), written for interviews at approximately three years of CI/CD experience.
+
 ---
 
 ## 2. CI, delivery, deployment and GitOps
