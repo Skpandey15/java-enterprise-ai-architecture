@@ -16,7 +16,8 @@ This repository is maintained by **Sunil Pandey** as an original architecture po
 
 ## Featured learning guides
 
-- [AI Development: Zero to Job-Ready (0–6 Years)](docs/03-ai/ai-development-zero-to-job-ready/README.md) — fourteen progressive chapters covering foundations, LLM APIs, chatbots, embeddings, RAG, agents, MCP, LLMOps and hands-on frameworks
+- [AI Development: Zero to Job-Ready (0–6 Years)](docs/03-ai/ai-development-zero-to-job-ready/README.md) — twenty progressive chapters covering ML foundations, classical ML, deep learning, LLM APIs, RAG, agents, frameworks, fine-tuning, MLOps, multimodal AI, cloud and security
+- [Complete AI/ML Engineering Track](docs/03-ai/ai-development-zero-to-job-ready/15-ml-mathematics-foundations.md) — mathematics, scikit-learn, PyTorch, Transformer internals, LoRA, MLOps, model serving, cloud AI, multimodal systems and security
 - [AI Frameworks: LangChain, LangGraph, Transformers and More](docs/03-ai/ai-development-zero-to-job-ready/12-ai-frameworks-toolkit.md) — framework choices, LlamaIndex, vector stores, RAGAS, DeepEval, LangSmith and OpenTelemetry
 - [Hugging Face Transformers Hands-On](docs/03-ai/ai-development-zero-to-job-ready/13-hugging-face-transformers-hands-on.md)
 - [LangChain and LangGraph Production Lab](docs/03-ai/ai-development-zero-to-job-ready/14-langchain-langgraph-production-lab.md)
@@ -51,6 +52,7 @@ This repository is maintained by **Sunil Pandey** as an original architecture po
 - [x] Add ReactJS Zero-to-Job-Ready curriculum for 0–3 years
 - [x] Add AI Development Zero-to-Job-Ready curriculum for 0–6 years
 - [x] Add hands-on LangChain, LangGraph and Hugging Face Transformers track
+- [x] Complete broader AI/ML engineering track: classical ML, deep learning, fine-tuning, MLOps, serving, cloud, multimodal AI and security
 - [x] Add Java, Kafka, security, database and CI/CD architecture guides
 - [ ] Add observability reference architecture
 - [ ] Add runnable reference implementations and failure tests
