@@ -16,6 +16,14 @@ This curriculum is for a developer who has heard terms such as LLM, chatbot, RAG
 10. [Deployment, observability and LLMOps](10-production-llmops.md)
 11. [Portfolio project and interview preparation](11-project-interview.md)
 
+## Framework hands-on track
+
+12. [AI frameworks and tools: what to learn and when](12-ai-frameworks-toolkit.md)
+13. [Hugging Face Transformers: inference, embeddings and PEFT/LoRA](13-hugging-face-transformers-hands-on.md)
+14. [LangChain and LangGraph production lab](14-langchain-langgraph-production-lab.md)
+
+The framework track explicitly covers **LangChain, LangGraph, Hugging Face Transformers, LlamaIndex, FAISS, Chroma, pgvector, Pinecone, Weaviate, RAGAS, DeepEval, LangSmith and OpenTelemetry**.
+
 ```mermaid
 flowchart TD
   A["Foundations + Python"] --> B["LLM app + chatbot"]
@@ -23,12 +31,13 @@ flowchart TD
   C --> D["Evaluation + safety"]
   D --> E["Agents + MCP"]
   E --> F["Production + LLMOps"]
+  F --> G["Framework production labs"]
   classDef learn fill:#dbeafe,stroke:#2563eb,color:#172554
   classDef build fill:#dcfce7,stroke:#16a34a,color:#052e16
   classDef operate fill:#fef3c7,stroke:#d97706,color:#451a03
   class A,B learn
   class C,D build
-  class E,F operate
+  class E,F,G operate
 ```
 
 ## Capability by experience
