@@ -314,8 +314,8 @@ Ask in order:
 
 ## Related guides
 
-- [Java Modular Monolith vs Microservices](../02-java-enterprise/modular-monolith-vs-microservices.md)
-- [Saga and Transactional Outbox](../03-data-and-transactions/saga-and-transactional-outbox.md)
-- [Kafka Production Architecture](../04-event-driven-architecture/kafka-production-architecture.md)
-- [Keycloak, OAuth 2.0, OIDC, JWT and JWKS](../05-security/keycloak-oauth2-oidc-jwt-jwks-security-architecture.md)
-- [Complete CI/CD Pipeline](../06-cloud-native/ci-cd-pipeline/complete-ci-cd-pipeline.md)
+- [Java Modular Monolith vs Microservices](../java/modular-monolith-vs-microservices.md)
+- [Saga and Transactional Outbox](../../04-database/saga-and-transactional-outbox.md)
+- [Kafka Production Architecture](../event-driven/kafka-production-architecture.md)
+- [Keycloak, OAuth 2.0, OIDC, JWT and JWKS](../security/keycloak-oauth2-oidc-jwt-jwks-security-architecture.md)
+- [Complete CI/CD Pipeline](../../05-ci-cd/complete-ci-cd-pipeline.md)

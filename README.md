@@ -20,34 +20,29 @@ This repository is maintained by **Sunil Pandey** as an original architecture po
 5. Record important decisions and the alternatives rejected.
 6. Validate diagrams with code, tests, load tests, and failure experiments.
 
-## Learning map
+## Five-part learning map
 
-| Area | Topics |
+| Part | Focus |
 |---|---|
-| Java enterprise | Java 21+, Spring Boot, modular monoliths, microservices, API design |
-| Data | PostgreSQL, Flyway, transactions, caching, partitioning |
-| Event-driven systems | Kafka, idempotency, outbox, Saga, ordering, retries |
-| Security | OAuth 2.0, OpenID Connect, Keycloak, JWT, JWKS, Zero Trust |
-| Cloud native | Containers, Kubernetes, ingress, service discovery, GitOps |
-| Reliability | SLOs, resilience patterns, disaster recovery, chaos testing |
-| Observability | Logs, metrics, traces, OpenTelemetry, Prometheus, Grafana |
-| Enterprise AI | LLM gateways, RAG, MCP, agents, guardrails, evaluation, LLMOps |
+| [1. Frontend](docs/01-frontend/) | React, TypeScript, browser security, testing, performance, accessibility, and micro-frontends |
+| [2. Backend — Java and Python](docs/02-backend-java-python/) | Architecture fundamentals, Spring Boot, FastAPI, microservices, Kafka, resilience, and security |
+| [3. AI](docs/03-ai/) | LLM gateways, RAG, agents, MCP, guardrails, evaluation, observability, and LLMOps |
+| [4. Database](docs/04-database/) | PostgreSQL, MongoDB, modelling, transactions, consistency, outbox, partitioning, and recovery |
+| [5. CI/CD](docs/05-ci-cd/) | Build pipelines, quality gates, artifacts, Docker, Kubernetes, Jenkins, Argo CD, GitOps, and Ingress |
 
 ## Repository structure
 
 ```text
 docs/
-├── 01-fundamentals/
-├── 02-java-enterprise/
-├── 03-data-and-transactions/
-├── 04-event-driven-architecture/
-├── 05-security/
-├── 06-cloud-native/
-│   └── ci-cd-pipeline/
-├── 07-observability-and-resilience/
-├── 08-enterprise-ai/
-├── 09-case-studies/
-└── 10-interview-guides/
+├── 01-frontend/
+├── 02-backend-java-python/
+│   ├── fundamentals/
+│   ├── java/
+│   ├── event-driven/
+│   └── security/
+├── 03-ai/
+├── 04-database/
+└── 05-ci-cd/
 adrs/
 templates/
 reference-implementations/
@@ -55,16 +50,16 @@ reference-implementations/
 
 ## Featured architecture guides
 
-- [Enterprise Architecture Principles](docs/01-fundamentals/architecture-principles.md) — business-first guardrails, domain and data ownership, resilience, security, delivery, cost, AI governance, evidence checks, and interview guidance
-- [Java Modular Monolith vs Microservices](docs/02-java-enterprise/modular-monolith-vs-microservices.md) — selection criteria, module boundaries, extraction signals, migration path, and anti-patterns
-- [Kafka Fundamentals: Zero to Hero](docs/04-event-driven-architecture/kafka-fundamentals-zero-to-hero.md) — concepts from first principles, cluster anatomy, producers, consumer groups, offsets, Spring Boot examples, reliability, retries, security, monitoring, troubleshooting, labs, and interview answers
-- [Kafka Production Architecture](docs/04-event-driven-architecture/kafka-production-architecture.md) — KRaft, durability, partitioning, delivery semantics, retries, schema governance, security, observability, and disaster recovery
-- [Saga and Transactional Outbox](docs/03-data-and-transactions/saga-and-transactional-outbox.md) — local transaction boundaries, reliable event publication, idempotent consumers, choreography, orchestration, compensation, and failure recovery
-- [Keycloak, OAuth 2.0, OIDC, JWT and JWKS Security Architecture](docs/05-security/keycloak-oauth2-oidc-jwt-jwks-security-architecture.md) — trust boundaries, login flows, token roles, issuer and audience validation, JWKS rotation, browser/BFF security, service identity, and failure testing
-- [Complete CI/CD Pipeline: Docker, Kubernetes, Argo CD and Ingress](docs/06-cloud-native/ci-cd-pipeline/complete-ci-cd-pipeline.md) — CI/CD concepts, Docker and GHCR, Kustomize promotion, Argo CD GitOps, Kubernetes rollout, Ingress URLs, security, rollback, troubleshooting, production checklist, and interview questions
-- [Docker and Kubernetes Fundamentals for CI/CD Engineers](docs/06-cloud-native/ci-cd-pipeline/docker-kubernetes-fundamentals.md) — container internals, production Dockerfiles, cluster architecture, Kubernetes workloads and networking, security, commands, troubleshooting, and interview answers for a three-year CI/CD profile
-- [Jenkins CI/CD Pipeline: Branch Build and Environment Deployment](docs/06-cloud-native/ci-cd-pipeline/jenkins-ci-cd-pipeline.md) — branch-based build, testing and scanning, Nexus/Artifactory and image publication, environment selection from dev through production, approvals, Kubernetes deployment, Argo CD integration, rollback, troubleshooting, and interview answers
-- [AI-Assisted Interview Platform](docs/09-case-studies/ai-assisted-interview-platform.md) — end-to-end Java, Python, React, security, AI, data, deployment, and operational design
+- [Enterprise Architecture Principles](docs/02-backend-java-python/fundamentals/architecture-principles.md) — business-first guardrails, domain and data ownership, resilience, security, delivery, cost, AI governance, evidence checks, and interview guidance
+- [Java Modular Monolith vs Microservices](docs/02-backend-java-python/java/modular-monolith-vs-microservices.md) — selection criteria, module boundaries, extraction signals, migration path, and anti-patterns
+- [Kafka Fundamentals: Zero to Hero](docs/02-backend-java-python/event-driven/kafka-fundamentals-zero-to-hero.md) — concepts from first principles, cluster anatomy, producers, consumer groups, offsets, Spring Boot examples, reliability, retries, security, monitoring, troubleshooting, labs, and interview answers
+- [Kafka Production Architecture](docs/02-backend-java-python/event-driven/kafka-production-architecture.md) — KRaft, durability, partitioning, delivery semantics, retries, schema governance, security, observability, and disaster recovery
+- [Saga and Transactional Outbox](docs/04-database/saga-and-transactional-outbox.md) — local transaction boundaries, reliable event publication, idempotent consumers, choreography, orchestration, compensation, and failure recovery
+- [Keycloak, OAuth 2.0, OIDC, JWT and JWKS Security Architecture](docs/02-backend-java-python/security/keycloak-oauth2-oidc-jwt-jwks-security-architecture.md) — trust boundaries, login flows, token roles, issuer and audience validation, JWKS rotation, browser/BFF security, service identity, and failure testing
+- [Complete CI/CD Pipeline: Docker, Kubernetes, Argo CD and Ingress](docs/05-ci-cd/complete-ci-cd-pipeline.md) — CI/CD concepts, Docker and GHCR, Kustomize promotion, Argo CD GitOps, Kubernetes rollout, Ingress URLs, security, rollback, troubleshooting, production checklist, and interview questions
+- [Docker and Kubernetes Fundamentals for CI/CD Engineers](docs/05-ci-cd/docker-kubernetes-fundamentals.md) — container internals, production Dockerfiles, cluster architecture, Kubernetes workloads and networking, security, commands, troubleshooting, and interview answers for a three-year CI/CD profile
+- [Jenkins CI/CD Pipeline: Branch Build and Environment Deployment](docs/05-ci-cd/jenkins-ci-cd-pipeline.md) — branch-based build, testing and scanning, Nexus/Artifactory and image publication, environment selection from dev through production, approvals, Kubernetes deployment, Argo CD integration, rollback, troubleshooting, and interview answers
+- [AI-Assisted Interview Platform](docs/03-ai/ai-assisted-interview-platform.md) — end-to-end Java, Python, React, security, AI, data, deployment, and operational design
 
 ## First reference architecture
 
@@ -82,7 +77,7 @@ The first end-to-end case study is an **AI-assisted online interview platform**,
 - OpenTelemetry, Prometheus, Grafana, and centralized logging
 - MCP-based controlled tool integration
 
-See [AI-Assisted Interview Platform](docs/09-case-studies/ai-assisted-interview-platform.md).
+See [AI-Assisted Interview Platform](docs/03-ai/ai-assisted-interview-platform.md).
 
 ## How each architecture is documented
 
