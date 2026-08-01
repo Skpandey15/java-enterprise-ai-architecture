@@ -10,12 +10,13 @@ This repository is maintained by **Sunil Pandey** as an original architecture po
 |---|---|
 | [1. Frontend](docs/01-frontend/) | React, TypeScript, browser security, testing, performance, accessibility, and micro-frontends |
 | [2. Backend — Core Java and Python](docs/02-backend-java-python/) | Core Java Zero to Architect, Spring Boot, FastAPI, Kafka, resilience, security and runtime engineering |
-| [3. AI](docs/03-ai/) | LLM gateways, RAG, agents, MCP, guardrails, evaluation, observability, and LLMOps |
+| [3. AI](docs/03-ai/) | AI Development Zero to Job-Ready, LLM gateways, RAG, agents, MCP, guardrails, evaluation, observability and LLMOps |
 | [4. Database](docs/04-database/) | PostgreSQL, MongoDB, modelling, transactions, consistency, outbox, partitioning, and recovery |
 | [5. CI/CD](docs/05-ci-cd/) | Build pipelines, quality gates, artifacts, Docker, Kubernetes, Jenkins, Argo CD, GitOps, and Ingress |
 
 ## Featured learning guides
 
+- [AI Development: Zero to Job-Ready (0–6 Years)](docs/03-ai/ai-development-zero-to-job-ready/README.md) — eleven progressive chapters covering AI/ML foundations, LLM APIs, chatbots, embeddings, RAG, evaluation, guardrails, agents, MCP, LLMOps and interview preparation
 - [ReactJS: Zero to Job-Ready (0–3 Years)](docs/01-frontend/react-zero-to-job-ready/README.md) — ten progressive chapters covering TypeScript, React, hooks, routing, forms, APIs, state, testing, security, accessibility, performance, deployment and interview preparation
 - [Python Backend: Zero to Job-Ready (0–3 Years)](docs/02-backend-java-python/python/zero-to-job-ready/README.md) — ten progressive chapters covering Core Python, FastAPI, SQLAlchemy, async I/O, pytest, security, observability, deployment and interview preparation
 - [Core Java: Zero to Architect](docs/02-backend-java-python/core-java/) — twelve senior-level chapters covering language design, collections, JVM/GC, concurrency and virtual threads, I/O, functional Java, reflection/modules, Java 8–25 evolution, testing, security, production debugging, design patterns and interview scenarios
@@ -45,10 +46,9 @@ This repository is maintained by **Sunil Pandey** as an original architecture po
 - [x] Add Core Java Zero-to-Architect curriculum for senior engineers
 - [x] Add Python Zero-to-Job-Ready curriculum for 0–3 years
 - [x] Add ReactJS Zero-to-Job-Ready curriculum for 0–3 years
+- [x] Add AI Development Zero-to-Job-Ready curriculum for 0–6 years
 - [x] Add Java, Kafka, security, database and CI/CD architecture guides
 - [ ] Add observability reference architecture
-- [ ] Add enterprise RAG architecture
-- [ ] Add agentic AI and MCP security architecture
 - [ ] Add runnable reference implementations and failure tests
 
 ## Related implementation
