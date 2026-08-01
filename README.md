@@ -55,6 +55,7 @@ reference-implementations/
 
 ## Featured architecture guides
 
+- [Enterprise Architecture Principles](docs/01-fundamentals/architecture-principles.md) — business-first guardrails, domain and data ownership, resilience, security, delivery, cost, AI governance, evidence checks, and interview guidance
 - [Java Modular Monolith vs Microservices](docs/02-java-enterprise/modular-monolith-vs-microservices.md) — selection criteria, module boundaries, extraction signals, migration path, and anti-patterns
 - [Kafka Production Architecture](docs/04-event-driven-architecture/kafka-production-architecture.md) — KRaft, durability, partitioning, delivery semantics, retries, schema governance, security, observability, and disaster recovery
 - [Saga and Transactional Outbox](docs/03-data-and-transactions/saga-and-transactional-outbox.md) — local transaction boundaries, reliable event publication, idempotent consumers, choreography, orchestration, compensation, and failure recovery
