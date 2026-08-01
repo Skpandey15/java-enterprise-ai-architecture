@@ -12,6 +12,8 @@ This is both an interview guide and a practical blueprint for the [Java_AI_MCP](
 
 For focused foundational revision, see [Docker and Kubernetes Fundamentals for CI/CD Engineers](docker-kubernetes-fundamentals.md), written for interviews at approximately three years of CI/CD experience.
 
+For complete Jenkins examples, see [Jenkins CI/CD Pipeline: Branch Build, Artifact Publishing and Environment Deployment](jenkins-ci-cd-pipeline.md), covering branch-based CI and parameterized promotion to dev, integration, UAT, staging, pre-production and production.
+
 ---
 
 ## 2. CI, delivery, deployment and GitOps
