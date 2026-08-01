@@ -56,6 +56,7 @@ reference-implementations/
 
 - [Java Modular Monolith vs Microservices](docs/02-java-enterprise/modular-monolith-vs-microservices.md) — selection criteria, module boundaries, extraction signals, migration path, and anti-patterns
 - [Kafka Production Architecture](docs/04-event-driven-architecture/kafka-production-architecture.md) — KRaft, durability, partitioning, delivery semantics, retries, schema governance, security, observability, and disaster recovery
+- [Saga and Transactional Outbox](docs/03-data-and-transactions/saga-and-transactional-outbox.md) — local transaction boundaries, reliable event publication, idempotent consumers, choreography, orchestration, compensation, and failure recovery
 - [AI-Assisted Interview Platform](docs/09-case-studies/ai-assisted-interview-platform.md) — end-to-end Java, Python, React, security, AI, data, deployment, and operational design
 
 ## First reference architecture
@@ -102,7 +103,7 @@ Every substantial case study should cover:
 - [x] Add Java modular monolith versus microservices guidance
 - [x] Add Kafka production architecture
 - [ ] Add Keycloak/OIDC/JWT/JWKS security architecture
-- [ ] Add Saga and transactional outbox examples
+- [x] Add Saga and transactional outbox examples
 - [ ] Add Kubernetes ingress and GitOps deployment architecture
 - [ ] Add observability reference architecture
 - [ ] Add enterprise RAG architecture
