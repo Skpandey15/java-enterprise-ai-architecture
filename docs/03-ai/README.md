@@ -4,10 +4,11 @@ This part covers AI development from first principles to production engineering:
 
 ## Study material
 
-- [AI Development: Zero to Job-Ready (0–6 Years)](ai-development-zero-to-job-ready/README.md) — fourteen progressive chapters for someone who knows AI terminology but needs a clear, hands-on path into AI development.
+- [AI Development: Zero to Job-Ready (0–6 Years)](ai-development-zero-to-job-ready/README.md) — twenty progressive chapters for someone who knows AI terminology but needs a clear, hands-on path into AI development.
 - [AI Frameworks and Tools](ai-development-zero-to-job-ready/12-ai-frameworks-toolkit.md) — when to use native SDKs, LangChain, LangGraph, Transformers, LlamaIndex, vector databases and evaluation/tracing tools.
 - [Hugging Face Transformers Hands-On](ai-development-zero-to-job-ready/13-hugging-face-transformers-hands-on.md) — tokenizers, inference, embeddings, fine-tuning, PEFT/LoRA, quantisation and deployment.
 - [LangChain and LangGraph Production Lab](ai-development-zero-to-job-ready/14-langchain-langgraph-production-lab.md) — permission-aware RAG, tools, state graphs, checkpoints, approval, evaluation and tracing.
+- [Complete AI/ML Engineering Track](ai-development-zero-to-job-ready/15-ml-mathematics-foundations.md) — ML mathematics, NumPy/pandas/scikit-learn, PyTorch and Transformer internals, LoRA, MLOps, serving, cloud AI, multimodal systems and security.
 - [AI-Assisted Interview Platform](ai-assisted-interview-platform.md) — an end-to-end case study combining Spring Boot, FastAPI, LiteLLM, PostgreSQL, Keycloak, Kafka, React and Kubernetes.
 
 ## Recommended path
@@ -17,7 +18,8 @@ This part covers AI development from first principles to production engineering:
 3. Create an evaluation dataset before optimising prompts or changing models.
 4. Add permission-aware RAG, bounded tools and human approval.
 5. Compare native SDK, LangChain, LangGraph and Transformers implementations.
-6. Deploy with observability, cost controls, security tests and rollback evidence.
+6. Learn classical ML, PyTorch, fine-tuning, MLOps and model serving.
+7. Build a multimodal, permission-aware capstone with security and rollback evidence.
 
 ## Target capability
 
