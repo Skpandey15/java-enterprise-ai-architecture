@@ -24,6 +24,17 @@ This curriculum is for a developer who has heard terms such as LLM, chatbot, RAG
 
 The framework track explicitly covers **LangChain, LangGraph, Hugging Face Transformers, LlamaIndex, FAISS, Chroma, pgvector, Pinecone, Weaviate, RAGAS, DeepEval, LangSmith and OpenTelemetry**.
 
+## Broader AI/ML engineering track
+
+15. [Machine learning and mathematics foundations](15-ml-mathematics-foundations.md)
+16. [NumPy, pandas and scikit-learn hands-on](16-numpy-pandas-scikit-learn-hands-on.md)
+17. [Deep learning and Transformer internals with PyTorch](17-deep-learning-transformer-internals.md)
+18. [Fine-tuning, PEFT, LoRA and model evaluation](18-fine-tuning-peft-evaluation.md)
+19. [MLOps, model serving and cloud AI](19-mlops-model-serving-cloud-ai.md)
+20. [Multimodal AI, security and advanced AI system design](20-multimodal-security-ai-system-design.md)
+
+This track extends GenAI application development into classical ML, deep learning, training, secure model operations, cloud platforms and senior production architecture.
+
 ```mermaid
 flowchart TD
   A["Foundations + Python"] --> B["LLM app + chatbot"]
@@ -32,12 +43,14 @@ flowchart TD
   D --> E["Agents + MCP"]
   E --> F["Production + LLMOps"]
   F --> G["Framework production labs"]
+  G --> H["ML + deep learning"]
+  H --> I["MLOps + multimodal design"]
   classDef learn fill:#dbeafe,stroke:#2563eb,color:#172554
   classDef build fill:#dcfce7,stroke:#16a34a,color:#052e16
   classDef operate fill:#fef3c7,stroke:#d97706,color:#451a03
   class A,B learn
   class C,D build
-  class E,F,G operate
+  class E,F,G,H,I operate
 ```
 
 ## Capability by experience
@@ -50,6 +63,6 @@ flowchart TD
 
 ## Hands-on project
 
-Build an **Enterprise AI Interview Assistant** throughout: chat, grounded policy Q&A, question generation, tool-assisted scheduling, human approval, evaluation, observability and Kubernetes deployment.
+Build an **Enterprise AI Interview Assistant** throughout: chat, grounded policy Q&A, question generation, tool-assisted scheduling, human approval, evaluation, observability and Kubernetes deployment. Extend it with a classical ML baseline, LoRA experiment, model registry, canary serving, multimodal CV/audio processing and a documented threat model.
 
 Do not start by memorising frameworks. First understand the pipeline, then implement a thin version with plain Python and model SDKs, and only then adopt an orchestration framework where it removes proven complexity.
