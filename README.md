@@ -61,6 +61,7 @@ reference-implementations/
 - [Saga and Transactional Outbox](docs/03-data-and-transactions/saga-and-transactional-outbox.md) — local transaction boundaries, reliable event publication, idempotent consumers, choreography, orchestration, compensation, and failure recovery
 - [Keycloak, OAuth 2.0, OIDC, JWT and JWKS Security Architecture](docs/05-security/keycloak-oauth2-oidc-jwt-jwks-security-architecture.md) — trust boundaries, login flows, token roles, issuer and audience validation, JWKS rotation, browser/BFF security, service identity, and failure testing
 - [Complete CI/CD Pipeline: Docker, Kubernetes, Argo CD and Ingress](docs/06-cloud-native/ci-cd-pipeline/complete-ci-cd-pipeline.md) — CI/CD concepts, Docker and GHCR, Kustomize promotion, Argo CD GitOps, Kubernetes rollout, Ingress URLs, security, rollback, troubleshooting, production checklist, and interview questions
+- [Docker and Kubernetes Fundamentals for CI/CD Engineers](docs/06-cloud-native/ci-cd-pipeline/docker-kubernetes-fundamentals.md) — container internals, production Dockerfiles, cluster architecture, Kubernetes workloads and networking, security, commands, troubleshooting, and interview answers for a three-year CI/CD profile
 - [AI-Assisted Interview Platform](docs/09-case-studies/ai-assisted-interview-platform.md) — end-to-end Java, Python, React, security, AI, data, deployment, and operational design
 
 ## First reference architecture
