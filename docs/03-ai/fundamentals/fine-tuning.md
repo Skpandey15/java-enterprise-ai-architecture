@@ -793,7 +793,7 @@ Fine-tune a small instruction model to produce structured interview questions, t
 2. Review synthetic examples with domain experts rather than accepting them automatically.
 3. Deduplicate using normalized hashes and embedding similarity.
 4. Split by topic/source so near-identical examples do not cross boundaries.
-5. validate every record against Pydantic and JSON Schema.
+5. Validate every record against Pydantic and JSON Schema.
 6. Publish dataset version `interview-questions-v1` and a dataset card.
 
 ### Milestone 3 — LoRA baseline
