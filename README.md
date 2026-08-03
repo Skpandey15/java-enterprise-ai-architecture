@@ -16,6 +16,7 @@ This repository is maintained by **Sunil Pandey** as an original architecture po
 
 ## Featured learning guides
 
+- [Java Developer/Architect to AI Migration Guide](docs/03-ai/fundamentals/java-developer-architect-to-ai-migration-guide.md) — preserve enterprise Java strengths while adding Python, ML/LLM foundations, RAG, agents, evaluation, security, LLMOps and AI-architecture decision skills
 - [Database: Zero to Expert](docs/04-database/database-zero-to-expert/README.md) — thirteen progressive chapters covering vendor-neutral SQL, JOINs, modelling, PostgreSQL, indexing, transactions, performance, ORMs, migrations, scale, NoSQL, security, recovery and distributed-data architecture
 - [SQL JOINs: Zero to Expert](docs/04-database/database-zero-to-expert/13-sql-joins-zero-to-expert.md) — join types, cardinality, ON vs WHERE, semi/anti joins, algorithms, indexing, execution plans and ORM behavior
 - [AI Development: Zero to Job-Ready (0–6 Years)](docs/03-ai/ai-development-zero-to-job-ready/README.md) — twenty progressive chapters covering ML foundations, classical ML, deep learning, LLM APIs, RAG, agents, frameworks, fine-tuning, MLOps, multimodal AI, cloud and security
@@ -55,6 +56,7 @@ This repository is maintained by **Sunil Pandey** as an original architecture po
 - [x] Add Python Zero-to-Job-Ready curriculum for 0–3 years
 - [x] Add ReactJS Zero-to-Job-Ready curriculum for 0–3 years
 - [x] Add AI Development Zero-to-Job-Ready curriculum for 0–6 years
+- [x] Add Java developer/architect to AI migration guide
 - [x] Add AI inference API fundamentals
 - [x] Add extensive fine-tuning fundamentals and production lab
 - [x] Add hands-on LangChain, LangGraph and Hugging Face Transformers track
