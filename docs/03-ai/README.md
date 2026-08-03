@@ -5,6 +5,7 @@ This part covers AI development from first principles to production engineering:
 ## AI fundamentals
 
 - [Inference APIs: Zero to Production](fundamentals/inference-apis.md) — inference versus training, API contracts, generation controls, streaming, structured output, embeddings, hosted versus self-hosted serving, reliability, security, observability and cost.
+- [Fine-Tuning: Fundamentals to Production](fundamentals/fine-tuning.md) — adaptation decisions, dataset engineering, SFT, Transformers/TRL, PEFT, LoRA/QLoRA, DPO, Accelerate/DeepSpeed, experiment tracking, evaluation, packaging, serving and safe rollout.
 
 ## Study material
 
@@ -23,8 +24,9 @@ This part covers AI development from first principles to production engineering:
 4. Create an evaluation dataset before optimising prompts or changing models.
 5. Add permission-aware RAG, bounded tools and human approval.
 6. Compare native SDK, LangChain, LangGraph and Transformers implementations.
-7. Learn classical ML, PyTorch, fine-tuning, MLOps and model serving.
-8. Build a multimodal, permission-aware capstone with security and rollback evidence.
+7. Complete the dedicated fine-tuning fundamentals and production lab.
+8. Learn classical ML, PyTorch, MLOps and model serving.
+9. Build a multimodal, permission-aware capstone with security and rollback evidence.
 
 ## Target capability
 
