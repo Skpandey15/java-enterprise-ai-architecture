@@ -4,7 +4,7 @@ This curriculum is for a developer who has heard terms such as LLM, chatbot, RAG
 
 ## Fundamentals companion
 
-Before Chapter 3, study [Inference APIs: Zero to Production](../fundamentals/inference-apis.md) to understand the application-to-model boundary, inference contracts, generation controls, streaming, structured output, embeddings, resilience, security, observability and cost.
+Before Chapter 3, study [Inference APIs: Zero to Production](../fundamentals/inference-apis.md) to understand the application-to-model boundary, inference contracts, generation controls, streaming, structured output, embeddings, resilience, security, observability and cost. Before or alongside Chapter 18, complete [Fine-Tuning: Fundamentals to Production](../fundamentals/fine-tuning.md) for the full Transformers, TRL, PEFT, LoRA/QLoRA, DPO, experiment tracking, evaluation and deployment lab.
 
 ## Learning path
 
@@ -33,7 +33,7 @@ The framework track explicitly covers **LangChain, LangGraph, Hugging Face Trans
 15. [Machine learning and mathematics foundations](15-ml-mathematics-foundations.md)
 16. [NumPy, pandas and scikit-learn hands-on](16-numpy-pandas-scikit-learn-hands-on.md)
 17. [Deep learning and Transformer internals with PyTorch](17-deep-learning-transformer-internals.md)
-18. [Fine-tuning, PEFT, LoRA and model evaluation](18-fine-tuning-peft-evaluation.md)
+18. [Fine-tuning, PEFT, LoRA and model evaluation](18-fine-tuning-peft-evaluation.md) — then complete the [dedicated fundamentals-to-production lab](../fundamentals/fine-tuning.md)
 19. [MLOps, model serving and cloud AI](19-mlops-model-serving-cloud-ai.md)
 20. [Multimodal AI, security and advanced AI system design](20-multimodal-security-ai-system-design.md)
 
