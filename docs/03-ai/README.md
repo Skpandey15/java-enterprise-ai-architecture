@@ -4,6 +4,8 @@ This part covers AI development from first principles to production engineering:
 
 ## AI fundamentals
 
+- [Practical Java-to-AI Migration Playbook](fundamentals/practical-java-to-ai-migration-playbook.md) — tools, project setup, staged labs, evaluation, failure drills, security, CI/CD, deployment, portfolio evidence and developer/architect readiness gates.
+- [Python for AI Development: Minimum Practical Tutorial](fundamentals/python-for-ai-development.md) — focused syntax, typing, data, HTTP, async, NumPy/pandas, FastAPI, pytest and inference skills required before hands-on AI development.
 - [Java Developer/Architect to AI Migration Guide](fundamentals/java-developer-architect-to-ai-migration-guide.md) — role selection, transferable skills, Java/Python boundaries, AI learning sequence, evaluated projects, enterprise architecture, security, LLMOps and 90/180-day transition plans.
 - [Inference APIs: Zero to Production](fundamentals/inference-apis.md) — inference versus training, API contracts, generation controls, streaming, structured output, embeddings, hosted versus self-hosted serving, reliability, security, observability and cost.
 - [Fine-Tuning: Fundamentals to Production](fundamentals/fine-tuning.md) — adaptation decisions, dataset engineering, SFT, Transformers/TRL, PEFT, LoRA/QLoRA, DPO, Accelerate/DeepSpeed, experiment tracking, evaluation, packaging, serving and safe rollout.
@@ -20,15 +22,17 @@ This part covers AI development from first principles to production engineering:
 ## Recommended path
 
 1. If migrating from Java, begin with the dedicated migration guide and select a target role.
-2. Learn how inference APIs connect an application to trained models.
-3. Complete the AI Development chapters in order.
-4. Build the Enterprise AI Interview Assistant milestone by milestone.
-5. Create an evaluation dataset before optimising prompts or changing models.
-6. Add permission-aware RAG, bounded tools and human approval.
-7. Compare native SDK, LangChain, LangGraph and Transformers implementations.
-8. Complete the dedicated fine-tuning fundamentals and production lab.
-9. Learn classical ML, PyTorch, MLOps and model serving.
-10. Build a multimodal, permission-aware capstone with security and rollback evidence.
+2. Use the practical migration playbook to prepare tools, labs, evidence and engineering gates.
+3. Complete the minimum Python-for-AI tutorial and its typed mini-service.
+4. Learn how inference APIs connect an application to trained models.
+5. Complete the AI Development chapters in order.
+6. Build the Enterprise AI Interview Assistant milestone by milestone.
+7. Create an evaluation dataset before optimising prompts or changing models.
+8. Add permission-aware RAG, bounded tools and human approval.
+9. Compare native SDK, LangChain, LangGraph and Transformers implementations.
+10. Complete the dedicated fine-tuning fundamentals and production lab.
+11. Learn classical ML, PyTorch, MLOps and model serving.
+12. Build a multimodal, permission-aware capstone with security and rollback evidence.
 
 ## Target capability
 

@@ -100,7 +100,7 @@ Use Java when it owns business transactions, established domain logic or high-th
 
 ## 5. Minimum Python bridge for a Java engineer
 
-You do not need months of Python syntax before building. Learn enough to write reliable services, then deepen knowledge through projects.
+You do not need months of Python syntax before building. Learn enough to write reliable services, then deepen knowledge through projects. Complete the companion [Python for AI Development: Minimum Practical Tutorial](python-for-ai-development.md) for runnable Java-to-Python examples, exercises, a 14-day plan and a typed AI-service capstone.
 
 ### Week-one essentials
 
@@ -528,9 +528,11 @@ Be ready to answer:
 
 Use this guide as the migration map, then follow:
 
-1. [Inference APIs: Zero to Production](inference-apis.md)
-2. [AI Development: Zero to Job-Ready](../ai-development-zero-to-job-ready/README.md)
-3. [Fine-Tuning: Fundamentals to Production](fine-tuning.md)
-4. [AI-Assisted Interview Platform](../ai-assisted-interview-platform.md)
+1. [Practical Java-to-AI Migration Playbook](practical-java-to-ai-migration-playbook.md)
+2. [Python for AI Development: Minimum Practical Tutorial](python-for-ai-development.md)
+3. [Inference APIs: Zero to Production](inference-apis.md)
+4. [AI Development: Zero to Job-Ready](../ai-development-zero-to-job-ready/README.md)
+5. [Fine-Tuning: Fundamentals to Production](fine-tuning.md)
+6. [AI-Assisted Interview Platform](../ai-assisted-interview-platform.md)
 
 The transition is complete when you can build, measure, secure, deploy and defend an AI system—not when you have memorized the most tool names.

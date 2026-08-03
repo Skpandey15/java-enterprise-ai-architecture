@@ -4,7 +4,9 @@ This curriculum is for a developer who has heard terms such as LLM, chatbot, RAG
 
 ## Fundamentals companion
 
-Experienced Java developers and architects should first use the [Java-to-AI Migration Guide](../fundamentals/java-developer-architect-to-ai-migration-guide.md) to select a target role, map transferable skills and plan portfolio evidence. Before Chapter 3, study [Inference APIs: Zero to Production](../fundamentals/inference-apis.md) to understand the application-to-model boundary, inference contracts, generation controls, streaming, structured output, embeddings, resilience, security, observability and cost. Before or alongside Chapter 18, complete [Fine-Tuning: Fundamentals to Production](../fundamentals/fine-tuning.md) for the full Transformers, TRL, PEFT, LoRA/QLoRA, DPO, experiment tracking, evaluation and deployment lab.
+Before Chapter 2, complete [Python for AI Development: Minimum Practical Tutorial](../fundamentals/python-for-ai-development.md). It provides the required syntax, typing, JSON/HTTP, async, NumPy/pandas, FastAPI, pytest and model-client skills without requiring a full generic Python course.
+
+Experienced Java developers and architects should first use the [Java-to-AI Migration Guide](../fundamentals/java-developer-architect-to-ai-migration-guide.md) to select a target role, then follow the [Practical Java-to-AI Migration Playbook](../fundamentals/practical-java-to-ai-migration-playbook.md) for tools, staged labs, failure drills, production gates and portfolio evidence. Before Chapter 3, study [Inference APIs: Zero to Production](../fundamentals/inference-apis.md) to understand the application-to-model boundary, inference contracts, generation controls, streaming, structured output, embeddings, resilience, security, observability and cost. Before or alongside Chapter 18, complete [Fine-Tuning: Fundamentals to Production](../fundamentals/fine-tuning.md) for the full Transformers, TRL, PEFT, LoRA/QLoRA, DPO, experiment tracking, evaluation and deployment lab.
 
 ## Learning path
 
