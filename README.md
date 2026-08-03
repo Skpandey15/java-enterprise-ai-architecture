@@ -11,12 +11,13 @@ This repository is maintained by **Sunil Pandey** as an original architecture po
 | [1. Frontend](docs/01-frontend/) | React, TypeScript, browser security, testing, performance, accessibility, and micro-frontends |
 | [2. Backend — Core Java and Python](docs/02-backend-java-python/) | Core Java Zero to Architect, Spring Boot, FastAPI, Kafka, resilience, security and runtime engineering |
 | [3. AI](docs/03-ai/) | AI Development Zero to Job-Ready, LLM gateways, RAG, agents, MCP, guardrails, evaluation, observability and LLMOps |
-| [4. Database](docs/04-database/) | PostgreSQL, MongoDB, modelling, transactions, consistency, outbox, partitioning, and recovery |
+| [4. Database](docs/04-database/) | Vendor-neutral SQL and JOINs, PostgreSQL, MongoDB, modelling, transactions, consistency, outbox, partitioning and recovery |
 | [5. CI/CD](docs/05-ci-cd/) | Build pipelines, quality gates, artifacts, Docker, Kubernetes, Jenkins, Argo CD, GitOps, and Ingress |
 
 ## Featured learning guides
 
-- [Database: Zero to Expert](docs/04-database/database-zero-to-expert/README.md) — twelve progressive chapters covering SQL, modelling, PostgreSQL, indexing, transactions, performance, ORMs, migrations, scale, NoSQL, security, recovery and distributed-data architecture
+- [Database: Zero to Expert](docs/04-database/database-zero-to-expert/README.md) — thirteen progressive chapters covering vendor-neutral SQL, JOINs, modelling, PostgreSQL, indexing, transactions, performance, ORMs, migrations, scale, NoSQL, security, recovery and distributed-data architecture
+- [SQL JOINs: Zero to Expert](docs/04-database/database-zero-to-expert/13-sql-joins-zero-to-expert.md) — join types, cardinality, ON vs WHERE, semi/anti joins, algorithms, indexing, execution plans and ORM behavior
 - [AI Development: Zero to Job-Ready (0–6 Years)](docs/03-ai/ai-development-zero-to-job-ready/README.md) — twenty progressive chapters covering ML foundations, classical ML, deep learning, LLM APIs, RAG, agents, frameworks, fine-tuning, MLOps, multimodal AI, cloud and security
 - [Complete AI/ML Engineering Track](docs/03-ai/ai-development-zero-to-job-ready/15-ml-mathematics-foundations.md) — mathematics, scikit-learn, PyTorch, Transformer internals, LoRA, MLOps, model serving, cloud AI, multimodal systems and security
 - [AI Frameworks: LangChain, LangGraph, Transformers and More](docs/03-ai/ai-development-zero-to-job-ready/12-ai-frameworks-toolkit.md) — framework choices, LlamaIndex, vector stores, RAGAS, DeepEval, LangSmith and OpenTelemetry
