@@ -2,6 +2,10 @@
 
 This curriculum is for a developer who has heard terms such as LLM, chatbot, RAG and agentic AI but is unsure where to begin. It starts with the minimum foundations, then builds production-grade AI applications through hands-on work.
 
+## Fundamentals companion
+
+Before Chapter 3, study [Inference APIs: Zero to Production](../fundamentals/inference-apis.md) to understand the application-to-model boundary, inference contracts, generation controls, streaming, structured output, embeddings, resilience, security, observability and cost.
+
 ## Learning path
 
 1. [AI, ML and generative-AI foundations](01-ai-ml-generative-ai-foundations.md)
@@ -37,7 +41,7 @@ This track extends GenAI application development into classical ML, deep learnin
 
 ```mermaid
 flowchart TD
-  A["Foundations + Python"] --> B["LLM app + chatbot"]
+  A["Foundations + Python"] --> B["Inference APIs + chatbot"]
   B --> C["Embeddings + RAG"]
   C --> D["Evaluation + safety"]
   D --> E["Agents + MCP"]

@@ -2,6 +2,10 @@
 
 This part covers AI development from first principles to production engineering: model APIs, chatbots, embeddings, vector search, RAG, agents, MCP, evaluation, guardrails, observability, security, cost and LLMOps.
 
+## AI fundamentals
+
+- [Inference APIs: Zero to Production](fundamentals/inference-apis.md) — inference versus training, API contracts, generation controls, streaming, structured output, embeddings, hosted versus self-hosted serving, reliability, security, observability and cost.
+
 ## Study material
 
 - [AI Development: Zero to Job-Ready (0–6 Years)](ai-development-zero-to-job-ready/README.md) — twenty progressive chapters for someone who knows AI terminology but needs a clear, hands-on path into AI development.
@@ -13,13 +17,14 @@ This part covers AI development from first principles to production engineering:
 
 ## Recommended path
 
-1. Complete the AI Development chapters in order.
-2. Build the Enterprise AI Interview Assistant milestone by milestone.
-3. Create an evaluation dataset before optimising prompts or changing models.
-4. Add permission-aware RAG, bounded tools and human approval.
-5. Compare native SDK, LangChain, LangGraph and Transformers implementations.
-6. Learn classical ML, PyTorch, fine-tuning, MLOps and model serving.
-7. Build a multimodal, permission-aware capstone with security and rollback evidence.
+1. Learn how inference APIs connect an application to trained models.
+2. Complete the AI Development chapters in order.
+3. Build the Enterprise AI Interview Assistant milestone by milestone.
+4. Create an evaluation dataset before optimising prompts or changing models.
+5. Add permission-aware RAG, bounded tools and human approval.
+6. Compare native SDK, LangChain, LangGraph and Transformers implementations.
+7. Learn classical ML, PyTorch, fine-tuning, MLOps and model serving.
+8. Build a multimodal, permission-aware capstone with security and rollback evidence.
 
 ## Target capability
 
