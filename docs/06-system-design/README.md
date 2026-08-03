@@ -5,6 +5,7 @@ This part teaches system design as an engineering decision process for experienc
 ## Fundamentals
 
 - [System Design Fundamentals for an 18-Year Engineer](fundamentals/system-design-fundamentals-for-senior-engineers.md) — a senior-level method for designing, challenging and communicating production systems, with estimation, architecture patterns, failure analysis, diagrams, checklists and interview exercises.
+- [Multi-Tenant System Design: Zero to Production](fundamentals/multi-tenant-system-design.md) — end-to-end SaaS tenancy across identity, APIs, PostgreSQL RLS, caches, Kafka, jobs, quotas, encryption, residency, lifecycle, observability, sharding and tenant mobility.
 
 ## Recommended path
 
@@ -15,7 +16,8 @@ This part teaches system design as an engineering decision process for experienc
 5. Select consistency, communication, caching and scaling patterns deliberately.
 6. Design failure containment, security, observability and operations from the start.
 7. Validate the design with load tests, failure drills, threat models and architecture decision records.
-8. Practise complete case studies and defend every major trade-off.
+8. Design and adversarially test multi-tenant isolation across every synchronous, asynchronous and storage boundary.
+9. Practise complete case studies and defend every major trade-off.
 
 ## Senior-level outcome
 
