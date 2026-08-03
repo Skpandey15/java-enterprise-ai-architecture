@@ -4,7 +4,7 @@ A practical, production-oriented handbook for designing enterprise systems that 
 
 This repository is maintained by **Sunil Pandey** as an original architecture portfolio and an open learning resource. It focuses on engineering decisions, trade-offs, failure modes, security, operability, and executable reference implementations—not only diagrams.
 
-## Five-part learning map
+## Six-part learning map
 
 | Part | Focus |
 |---|---|
@@ -13,9 +13,11 @@ This repository is maintained by **Sunil Pandey** as an original architecture po
 | [3. AI](docs/03-ai/) | AI Development Zero to Job-Ready, inference APIs, LLM gateways, RAG, agents, MCP, guardrails, evaluation, observability and LLMOps |
 | [4. Database](docs/04-database/) | Vendor-neutral SQL and JOINs, PostgreSQL, MongoDB, modelling, transactions, consistency, outbox, partitioning and recovery |
 | [5. CI/CD](docs/05-ci-cd/) | Build pipelines, quality gates, artifacts, Docker, Kubernetes, Jenkins, Argo CD, GitOps, and Ingress |
+| [6. System Design](docs/06-system-design/) | Senior-level design method, quality attributes, estimation, APIs, data, distributed systems, resilience, security, observability, cost and architecture evolution |
 
 ## Featured learning guides
 
+- [System Design Fundamentals for an 18-Year Engineer](docs/06-system-design/fundamentals/system-design-fundamentals-for-senior-engineers.md) — requirements, quality attributes, capacity estimation, domain and API design, consistency, scaling, resilience, security, observability, cost, ADRs, practical labs and architect-level interviews
 - [Java-to-AI Enterprise Capstone: Build, Evaluate, Secure and Deploy](docs/03-ai/fundamentals/java-to-ai-enterprise-capstone/README.md) — an evidence-driven enterprise project using Spring Boot, FastAPI, secured RAG, evaluation gates, Keycloak, Kafka, Kubernetes and AWS
 - [Practical Java-to-AI Migration Playbook](docs/03-ai/fundamentals/practical-java-to-ai-migration-playbook.md) — the tools, staged labs, engineering mindset, failure drills, production gates and portfolio evidence required during migration
 - [Python for AI Development: Minimum Practical Tutorial](docs/03-ai/fundamentals/python-for-ai-development.md) — the focused Python bridge needed for model APIs, data/evaluation work, FastAPI, async I/O, testing and a first typed AI service
@@ -54,7 +56,7 @@ This repository is maintained by **Sunil Pandey** as an original architecture po
 
 ## Roadmap
 
-- [x] Establish five-part handbook structure
+- [x] Establish six-part handbook structure
 - [x] Add Core Java Zero-to-Architect curriculum for senior engineers
 - [x] Add Python Zero-to-Job-Ready curriculum for 0–3 years
 - [x] Add ReactJS Zero-to-Job-Ready curriculum for 0–3 years
@@ -69,6 +71,7 @@ This repository is maintained by **Sunil Pandey** as an original architecture po
 - [x] Complete broader AI/ML engineering track: classical ML, deep learning, fine-tuning, MLOps, serving, cloud, multimodal AI and security
 - [x] Add Database Zero-to-Expert curriculum from SQL foundations to distributed-data architecture
 - [x] Add Java, Kafka, security, database and CI/CD architecture guides
+- [x] Add senior System Design Fundamentals for experienced engineers and architects
 - [ ] Add observability reference architecture
 - [ ] Add runnable reference implementations and failure tests
 
