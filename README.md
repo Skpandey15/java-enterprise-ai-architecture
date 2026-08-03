@@ -16,6 +16,7 @@ This repository is maintained by **Sunil Pandey** as an original architecture po
 
 ## Featured learning guides
 
+- [Database: Zero to Expert](docs/04-database/database-zero-to-expert/README.md) — twelve progressive chapters covering SQL, modelling, PostgreSQL, indexing, transactions, performance, ORMs, migrations, scale, NoSQL, security, recovery and distributed-data architecture
 - [AI Development: Zero to Job-Ready (0–6 Years)](docs/03-ai/ai-development-zero-to-job-ready/README.md) — twenty progressive chapters covering ML foundations, classical ML, deep learning, LLM APIs, RAG, agents, frameworks, fine-tuning, MLOps, multimodal AI, cloud and security
 - [Complete AI/ML Engineering Track](docs/03-ai/ai-development-zero-to-job-ready/15-ml-mathematics-foundations.md) — mathematics, scikit-learn, PyTorch, Transformer internals, LoRA, MLOps, model serving, cloud AI, multimodal systems and security
 - [AI Frameworks: LangChain, LangGraph, Transformers and More](docs/03-ai/ai-development-zero-to-job-ready/12-ai-frameworks-toolkit.md) — framework choices, LlamaIndex, vector stores, RAGAS, DeepEval, LangSmith and OpenTelemetry
@@ -53,6 +54,7 @@ This repository is maintained by **Sunil Pandey** as an original architecture po
 - [x] Add AI Development Zero-to-Job-Ready curriculum for 0–6 years
 - [x] Add hands-on LangChain, LangGraph and Hugging Face Transformers track
 - [x] Complete broader AI/ML engineering track: classical ML, deep learning, fine-tuning, MLOps, serving, cloud, multimodal AI and security
+- [x] Add Database Zero-to-Expert curriculum from SQL foundations to distributed-data architecture
 - [x] Add Java, Kafka, security, database and CI/CD architecture guides
 - [ ] Add observability reference architecture
 - [ ] Add runnable reference implementations and failure tests
