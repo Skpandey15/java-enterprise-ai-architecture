@@ -16,6 +16,7 @@ This repository is maintained by **Sunil Pandey** as an original architecture po
 
 ## Featured learning guides
 
+- [Java-to-AI Enterprise Capstone: Build, Evaluate, Secure and Deploy](docs/03-ai/fundamentals/java-to-ai-enterprise-capstone/README.md) — an evidence-driven enterprise project using Spring Boot, FastAPI, secured RAG, evaluation gates, Keycloak, Kafka, Kubernetes and AWS
 - [Practical Java-to-AI Migration Playbook](docs/03-ai/fundamentals/practical-java-to-ai-migration-playbook.md) — the tools, staged labs, engineering mindset, failure drills, production gates and portfolio evidence required during migration
 - [Python for AI Development: Minimum Practical Tutorial](docs/03-ai/fundamentals/python-for-ai-development.md) — the focused Python bridge needed for model APIs, data/evaluation work, FastAPI, async I/O, testing and a first typed AI service
 - [Java Developer/Architect to AI Migration Guide](docs/03-ai/fundamentals/java-developer-architect-to-ai-migration-guide.md) — preserve enterprise Java strengths while adding Python, ML/LLM foundations, RAG, agents, evaluation, security, LLMOps and AI-architecture decision skills
@@ -61,6 +62,7 @@ This repository is maintained by **Sunil Pandey** as an original architecture po
 - [x] Add Java developer/architect to AI migration guide
 - [x] Add minimum practical Python tutorial for AI development
 - [x] Add practical Java-to-AI migration playbook with tools, labs and readiness gates
+- [x] Add Java-to-AI Enterprise Capstone: Build, Evaluate, Secure and Deploy
 - [x] Add AI inference API fundamentals
 - [x] Add extensive fine-tuning fundamentals and production lab
 - [x] Add hands-on LangChain, LangGraph and Hugging Face Transformers track
