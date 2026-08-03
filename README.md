@@ -20,6 +20,7 @@ This repository is maintained by **Sunil Pandey** as an original architecture po
 - [SQL JOINs: Zero to Expert](docs/04-database/database-zero-to-expert/13-sql-joins-zero-to-expert.md) — join types, cardinality, ON vs WHERE, semi/anti joins, algorithms, indexing, execution plans and ORM behavior
 - [AI Development: Zero to Job-Ready (0–6 Years)](docs/03-ai/ai-development-zero-to-job-ready/README.md) — twenty progressive chapters covering ML foundations, classical ML, deep learning, LLM APIs, RAG, agents, frameworks, fine-tuning, MLOps, multimodal AI, cloud and security
 - [Inference APIs: Zero to Production](docs/03-ai/fundamentals/inference-apis.md) — model inference, API contracts, streaming, structured output, embeddings, reliability, security, observability, cost and serving trade-offs
+- [Fine-Tuning: Fundamentals to Production](docs/03-ai/fundamentals/fine-tuning.md) — SFT, datasets, chat templates, Transformers, TRL, PEFT, LoRA/QLoRA, DPO, MLflow, distributed training, evaluation, serving, canaries and rollback
 - [Complete AI/ML Engineering Track](docs/03-ai/ai-development-zero-to-job-ready/15-ml-mathematics-foundations.md) — mathematics, scikit-learn, PyTorch, Transformer internals, LoRA, MLOps, model serving, cloud AI, multimodal systems and security
 - [AI Frameworks: LangChain, LangGraph, Transformers and More](docs/03-ai/ai-development-zero-to-job-ready/12-ai-frameworks-toolkit.md) — framework choices, LlamaIndex, vector stores, RAGAS, DeepEval, LangSmith and OpenTelemetry
 - [Hugging Face Transformers Hands-On](docs/03-ai/ai-development-zero-to-job-ready/13-hugging-face-transformers-hands-on.md)
@@ -55,6 +56,7 @@ This repository is maintained by **Sunil Pandey** as an original architecture po
 - [x] Add ReactJS Zero-to-Job-Ready curriculum for 0–3 years
 - [x] Add AI Development Zero-to-Job-Ready curriculum for 0–6 years
 - [x] Add AI inference API fundamentals
+- [x] Add extensive fine-tuning fundamentals and production lab
 - [x] Add hands-on LangChain, LangGraph and Hugging Face Transformers track
 - [x] Complete broader AI/ML engineering track: classical ML, deep learning, fine-tuning, MLOps, serving, cloud, multimodal AI and security
 - [x] Add Database Zero-to-Expert curriculum from SQL foundations to distributed-data architecture
