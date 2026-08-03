@@ -18,6 +18,7 @@ This repository is maintained by **Sunil Pandey** as an original architecture po
 ## Featured learning guides
 
 - [System Design Fundamentals for an 18-Year Engineer](docs/06-system-design/fundamentals/system-design-fundamentals-for-senior-engineers.md) — requirements, quality attributes, capacity estimation, domain and API design, consistency, scaling, resilience, security, observability, cost, ADRs, practical labs and architect-level interviews
+- [Multi-Tenant System Design: Zero to Production](docs/06-system-design/fundamentals/multi-tenant-system-design.md) — tenant context, isolation models, PostgreSQL RLS, Keycloak, Redis, Kafka, quotas, encryption, residency, lifecycle, observability, sharding, mobility and leak-prevention testing
 - [Java-to-AI Enterprise Capstone: Build, Evaluate, Secure and Deploy](docs/03-ai/fundamentals/java-to-ai-enterprise-capstone/README.md) — an evidence-driven enterprise project using Spring Boot, FastAPI, secured RAG, evaluation gates, Keycloak, Kafka, Kubernetes and AWS
 - [Practical Java-to-AI Migration Playbook](docs/03-ai/fundamentals/practical-java-to-ai-migration-playbook.md) — the tools, staged labs, engineering mindset, failure drills, production gates and portfolio evidence required during migration
 - [Python for AI Development: Minimum Practical Tutorial](docs/03-ai/fundamentals/python-for-ai-development.md) — the focused Python bridge needed for model APIs, data/evaluation work, FastAPI, async I/O, testing and a first typed AI service
@@ -72,6 +73,7 @@ This repository is maintained by **Sunil Pandey** as an original architecture po
 - [x] Add Database Zero-to-Expert curriculum from SQL foundations to distributed-data architecture
 - [x] Add Java, Kafka, security, database and CI/CD architecture guides
 - [x] Add senior System Design Fundamentals for experienced engineers and architects
+- [x] Add production-grade multi-tenant SaaS system design
 - [ ] Add observability reference architecture
 - [ ] Add runnable reference implementations and failure tests
 
