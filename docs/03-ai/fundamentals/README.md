@@ -4,6 +4,7 @@ This folder explains the core ideas an AI developer should understand before ado
 
 ## Pages
 
+- [Practical Java-to-AI Migration Playbook](practical-java-to-ai-migration-playbook.md) — the execution guide: workstation/tool setup, project structure, staged labs, evaluation gates, RAG/tool failure drills, security, CI/CD, deployment, portfolio evidence and role readiness.
 - [Python for AI Development: Minimum Practical Tutorial](python-for-ai-development.md) — the minimum reliable Python needed for AI: Java comparisons, typing, JSON/HTTP, async, NumPy/pandas, FastAPI, pytest, model-client boundaries, a 14-day plan and capstone.
 - [Java Developer/Architect to AI Migration Guide](java-developer-architect-to-ai-migration-guide.md) — a role-based bridge from enterprise Java to AI development and AI architecture, including transferable skills, Python/AI gaps, projects, evaluation, security, production patterns, readiness scoring and 90/180-day plans.
 - [Inference APIs: Zero to Production](inference-apis.md) — model inference, API contracts, generation controls, streaming, structured output, embeddings, reliability, security, observability, cost and hands-on implementation.
@@ -11,4 +12,4 @@ This folder explains the core ideas an AI developer should understand before ado
 
 ## Recommended use
 
-Experienced Java developers and architects should start with the migration guide to choose a target role and reuse their enterprise strengths deliberately. Then complete the minimum Python-for-AI tutorial and its typed inference mini-service before reading the inference API guide before building chatbots, RAG pipelines or agents. Study fine-tuning after prompt engineering, RAG and Transformer internals, then use it with the MLOps and serving chapter. The principles apply across managed training services and self-hosted Hugging Face/PyTorch stacks.
+Experienced Java developers and architects should start with the migration guide to choose a target role and reuse their enterprise strengths deliberately. Next use the practical migration playbook to establish tools, hands-on gates and portfolio evidence. Then complete the minimum Python-for-AI tutorial and its typed inference mini-service before reading the inference API guide before building chatbots, RAG pipelines or agents. Study fine-tuning after prompt engineering, RAG and Transformer internals, then use it with the MLOps and serving chapter. The principles apply across managed training services and self-hosted Hugging Face/PyTorch stacks.
