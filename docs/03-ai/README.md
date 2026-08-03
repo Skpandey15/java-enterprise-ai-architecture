@@ -4,6 +4,7 @@ This part covers AI development from first principles to production engineering:
 
 ## AI fundamentals
 
+- [Java-to-AI Enterprise Capstone: Build, Evaluate, Secure and Deploy](fundamentals/java-to-ai-enterprise-capstone/README.md) — a complete Online Interview Platform track with implementation, evaluation, security, deployment, failure drills and portfolio evidence.
 - [Practical Java-to-AI Migration Playbook](fundamentals/practical-java-to-ai-migration-playbook.md) — tools, project setup, staged labs, evaluation, failure drills, security, CI/CD, deployment, portfolio evidence and developer/architect readiness gates.
 - [Python for AI Development: Minimum Practical Tutorial](fundamentals/python-for-ai-development.md) — focused syntax, typing, data, HTTP, async, NumPy/pandas, FastAPI, pytest and inference skills required before hands-on AI development.
 - [Java Developer/Architect to AI Migration Guide](fundamentals/java-developer-architect-to-ai-migration-guide.md) — role selection, transferable skills, Java/Python boundaries, AI learning sequence, evaluated projects, enterprise architecture, security, LLMOps and 90/180-day transition plans.
@@ -32,7 +33,7 @@ This part covers AI development from first principles to production engineering:
 9. Compare native SDK, LangChain, LangGraph and Transformers implementations.
 10. Complete the dedicated fine-tuning fundamentals and production lab.
 11. Learn classical ML, PyTorch, MLOps and model serving.
-12. Build a multimodal, permission-aware capstone with security and rollback evidence.
+12. Complete the [Java-to-AI Enterprise Capstone](fundamentals/java-to-ai-enterprise-capstone/README.md), including its evaluation, security, failure and rollback evidence.
 
 ## Target capability
 
