@@ -528,10 +528,11 @@ Be ready to answer:
 
 Use this guide as the migration map, then follow:
 
-1. [Python for AI Development: Minimum Practical Tutorial](python-for-ai-development.md)
-2. [Inference APIs: Zero to Production](inference-apis.md)
-3. [AI Development: Zero to Job-Ready](../ai-development-zero-to-job-ready/README.md)
-4. [Fine-Tuning: Fundamentals to Production](fine-tuning.md)
-5. [AI-Assisted Interview Platform](../ai-assisted-interview-platform.md)
+1. [Practical Java-to-AI Migration Playbook](practical-java-to-ai-migration-playbook.md)
+2. [Python for AI Development: Minimum Practical Tutorial](python-for-ai-development.md)
+3. [Inference APIs: Zero to Production](inference-apis.md)
+4. [AI Development: Zero to Job-Ready](../ai-development-zero-to-job-ready/README.md)
+5. [Fine-Tuning: Fundamentals to Production](fine-tuning.md)
+6. [AI-Assisted Interview Platform](../ai-assisted-interview-platform.md)
 
 The transition is complete when you can build, measure, secure, deploy and defend an AI system—not when you have memorized the most tool names.
