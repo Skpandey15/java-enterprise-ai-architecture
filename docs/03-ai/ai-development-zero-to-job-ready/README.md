@@ -6,6 +6,8 @@ This curriculum is for a developer who has heard terms such as LLM, chatbot, RAG
 
 Before Chapter 2, complete [Python for AI Development: Minimum Practical Tutorial](../fundamentals/python-for-ai-development.md). It provides the required syntax, typing, JSON/HTTP, async, NumPy/pandas, FastAPI, pytest and model-client skills without requiring a full generic Python course.
 
+The final practical target is the [Java-to-AI Enterprise Capstone: Build, Evaluate, Secure and Deploy](../fundamentals/java-to-ai-enterprise-capstone/README.md).
+
 Experienced Java developers and architects should first use the [Java-to-AI Migration Guide](../fundamentals/java-developer-architect-to-ai-migration-guide.md) to select a target role, then follow the [Practical Java-to-AI Migration Playbook](../fundamentals/practical-java-to-ai-migration-playbook.md) for tools, staged labs, failure drills, production gates and portfolio evidence. Before Chapter 3, study [Inference APIs: Zero to Production](../fundamentals/inference-apis.md) to understand the application-to-model boundary, inference contracts, generation controls, streaming, structured output, embeddings, resilience, security, observability and cost. Before or alongside Chapter 18, complete [Fine-Tuning: Fundamentals to Production](../fundamentals/fine-tuning.md) for the full Transformers, TRL, PEFT, LoRA/QLoRA, DPO, experiment tracking, evaluation and deployment lab.
 
 ## Learning path
@@ -69,6 +71,6 @@ flowchart TD
 
 ## Hands-on project
 
-Build an **Enterprise AI Interview Assistant** throughout: chat, grounded policy Q&A, question generation, tool-assisted scheduling, human approval, evaluation, observability and Kubernetes deployment. Extend it with a classical ML baseline, LoRA experiment, model registry, canary serving, multimodal CV/audio processing and a documented threat model.
+Follow the dedicated [Java-to-AI Enterprise Capstone](../fundamentals/java-to-ai-enterprise-capstone/README.md) and build an **Enterprise AI Interview Assistant** throughout: chat, grounded policy Q&A, question generation, tool-assisted scheduling, human approval, evaluation, observability and Kubernetes deployment. Extend it with a classical ML baseline, LoRA experiment, model registry, canary serving, multimodal CV/audio processing and a documented threat model.
 
 Do not start by memorising frameworks. First understand the pipeline, then implement a thin version with plain Python and model SDKs, and only then adopt an orchestration framework where it removes proven complexity.
