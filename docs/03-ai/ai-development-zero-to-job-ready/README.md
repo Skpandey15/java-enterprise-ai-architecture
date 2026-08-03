@@ -4,7 +4,7 @@ This curriculum is for a developer who has heard terms such as LLM, chatbot, RAG
 
 ## Fundamentals companion
 
-Before Chapter 3, study [Inference APIs: Zero to Production](../fundamentals/inference-apis.md) to understand the application-to-model boundary, inference contracts, generation controls, streaming, structured output, embeddings, resilience, security, observability and cost. Before or alongside Chapter 18, complete [Fine-Tuning: Fundamentals to Production](../fundamentals/fine-tuning.md) for the full Transformers, TRL, PEFT, LoRA/QLoRA, DPO, experiment tracking, evaluation and deployment lab.
+Experienced Java developers and architects should first use the [Java-to-AI Migration Guide](../fundamentals/java-developer-architect-to-ai-migration-guide.md) to select a target role, map transferable skills and plan portfolio evidence. Before Chapter 3, study [Inference APIs: Zero to Production](../fundamentals/inference-apis.md) to understand the application-to-model boundary, inference contracts, generation controls, streaming, structured output, embeddings, resilience, security, observability and cost. Before or alongside Chapter 18, complete [Fine-Tuning: Fundamentals to Production](../fundamentals/fine-tuning.md) for the full Transformers, TRL, PEFT, LoRA/QLoRA, DPO, experiment tracking, evaluation and deployment lab.
 
 ## Learning path
 
